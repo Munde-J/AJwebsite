@@ -1,107 +1,141 @@
-.body{
-    padding: 0;
+body{
     margin: 0;
-    overflow: hidden;
    
     /* background-color: #F8FEFF; */
 }
 
 
 
-.nav{
-   height: 30px;
 
-}
-.navbar ul{
-    float: right;
-    margin-right: 10px;
-}
+
+.navbar{
+    /* float: left; */
+    text-align: right;
+    /* margin-right: 10px; */
+   
+} 
 .navbar ul li{
     list-style: none;
-    margin: 0 5px;
+    
     display: inline-block;
-    line-height: 50px;
-    text-align: center;
+    /* line-height: 50px; */
+    /* text-align: center; */
+    
 
 }
 .navbar ul li a{
     text-decoration: none;
     font-size: 20px;
+    color: #A1A2B9;;
+    padding-left: 3px;
+
 }
 
 .section{
 
     background-color: #E9FAFC; 
-    height: 510px;
-    width: 100%;
+    padding: 20px 100px 10px 0px;
+    /* height: 510px;
+    width: 100%; */
 
 } 
-.image img{
-    float: right ;
-    margin: -23% 20 0 0;
-    border-radius: 56%;
-    border: 30px solid #CFE4E7; 
-    /* padding-bottom: 0%; */
-    margin-top: -22%;
-    width: 31%;
-    height: 360px;
-    margin-right: 5%;
-    /* margin-bottom: 10%;  */
+.both{
+    display: flex;
 }
+.image img{
+
+    /* float: right ; */
+    /* margin: -23% 20 0 0; */
+    border-radius: 56%;
+    border: 48px solid #CFE4E7; 
+    /* padding-bottom: 0%; */ 
+    margin-top: 10%;
+    width: 71%;
+    height: 360px;
+    /* margin-right: 5%; */
+    /* margin-bottom: 10%;   */
+}
+.content span{
+    color: #2CA4AF;
+} 
 /* .image{
     height: -50%;
     width: 90%;
 } */
 .content h1{
-    margin-bottom: 50px;
-    margin-left: 30px;
+    /* margin-bottom: 50px; */
+    margin-left: 160px;
+}
+.content{
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 .content h2{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     color: rgb(247, 169, 24);
     font-size: 15px;
-    margin-left: 30px;
+    margin-left: 160px;
 }
 .content h3{
-    font-size: 35px;
-    margin-left: 30px;
+    font-size: 45px;
+    margin-left: 160px;
 }
 .content p{
-    margin-top: 20px;
-    font-size: 10px;
-    margin-left: 30px;
+    /* margin-top: 20px; */
+    font-size: 15px;
+    margin-left: 170px;
+    color: #A1A2B9;;
 }
 button{
     background-color: rgb(23, 91, 180); 
     color: white; 
-    width: 12%;
+    width: 32%;
     height: 35px;
     margin-top: 40px;
-    margin-left: 30px;
+    margin-left: 160px;
+    border-style: none;
+}
+.content i{
+    margin-left: 58px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 14px;
+    color: #2CA3AE;
+    /* width: 10px; */
 }
 
 .work{
      background-color: #F6FDFE;  
-    margin-bottom: 5%;
+     padding: 0% 10% 5% 10%;
+    /* margin-bottom: 5%; */
 }
 .services{
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
+    display: flex;
+    
 }
 .services h4{
-    font-size: 30px;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    font-size: 40px;
+    /* padding: 20px; */
+    /* margin-top: 20px;
+    margin-bottom: 30px; */
 }
 .services .serv{
     font-size: 20px;
-    margin-left: 45px;
-    margin-top: -30px;
-    margin-bottom: 30px;
-    float: right;
+    /* margin-left: 45px; */
+    /* margin-top: -30px;
+    margin-bottom: 30px; */
+    /* float: right; */
 }
 .serv{
-    margin-top: 10px;
+    /* margin-top: 610px; */
+    color: #A1A2B9;
+    margin: 6% 0% 0% 26.6%;
+    max-width: 35%;
+    
+}
+.row2 {
+    color: #A1A2B9;
 }
   
  /* .dental{
@@ -124,21 +158,27 @@ button{
 
 .serve{
     display: flex;
-    font-size: 16px;
+    /* font-size: 16px; */
+    
 }
 .assistant{
-    margin-left: 5%;
-    margin-top: 5%;
+     margin-right: 5%;
+    margin-bottom: 5%;
     background-color: rgb(255, 255, 255);
-    width: 310px;
+    width: 270px;
     height: 220px;
+    padding: 40px;
    
 
 }
 .assistant i{
     color: #7FC9D2;
     border-radius: 50%;
-    background-color: #F7FEFF;
+    background-color: #f8f0f7;
+    /* margin-top: 35px;
+    margin-left: 35px;   */
+   padding: 10px;
+    
 }
 .operations{
     display: flex;
@@ -171,13 +211,14 @@ button{
       
  }  */
  .row1{
-     margin-left: 40px;
-     margin-top: 80px;
- }
- .row2{
+     /* margin-left: 40px;
+     /* margin-top: 80px; */
+    font-size: 18px;
+ } 
+ /* .row2{
      margin-left: 30px;
      margin-top: 25px;
- }
+ }  */
  .image2{
      margin-top: 5%;
      margin-right: -50%;
@@ -187,7 +228,7 @@ button{
  }
  .image2 p{
      margin-top: 2px;
-     background-color: rgb(207,228,231);
+     background-color: #CFE4E7;
      margin-right: 3px;
  }
  .container{
@@ -203,112 +244,113 @@ button{
      padding: 10px;
 
  }
+ .best p{
+     color: #A1A2B9;;
+ }
+ .best p2{
+     color: #A1A2B9;;
+ }
 .btn{
     width: 100px;
     border: none;
+    color: #2BA0AB;
 }
 .patients{
     display: flex;
 }
 .patients p{
     margin-left: 36%;
+    color: #A1A2B9;;
 }
 .patients h1{
     margin-left: 4%;
+    font-size: 40px;
+}
+#quotes{
+    color: #E9FAFC;
+    font-size: 60px;
 }
 .staff{
+    
+    width: 27%;
+    /* margin-right:80px ; */
      /* margin-left: 18%;  */
      background: #FFFFFF;
      /* padding-left: 190px; */
-     margin-left: 30px;
+     margin-left: 173px;
+     padding: 102px;
      /* margin-left: 4%; */
-      margin-bottom: 10%; 
+      /* margin-bottom: 16%;  */
     
 }
 
-.staff p{
+/* .staff p{
     margin-right: 280px;
-}
+
+} */
 .doc3 h1 P{
     align-items: flex-end;
 }
 .interested{
     
     /* margin-top: 10%; */
-     margin-left: 4%; 
+  
      background: #FFFFFF;
-     padding: 50px;
+     width: 27%;
+     /* margin-right: 5px; */
+     /* width: 1100px; */
+     padding: 102px;
      /* margin-top: -80px; */
-     margin-right: 80px;
-     margin-bottom: 10%;
+     /* padding-right: 80px; */
+     /* margin-bottom: 10%; */
 }
-.intrest{
+.interested p{
+    color: #A1A2B9;
+}
+.staff p{
+    color: #A1A2B9;
+}
+#comments{
     background-color:#F8FEFF; 
-    height: 400px;
-    width: 100%;
+   
 
 }
 .QUAL{
     background-color: #F8FEFF;
-    margin-top: -65px;
+    padding: 100px 0px 0px 100px;
+    /* margin-top: -65px; */
 }
 .int{
-    display: flex;
-    margin-top: 5%;
-    margin: 25px;
-}
-.qualify{
-    display: flex;
-    margin-top: 5%;
-}
-.quality{
-    margin-left: 5%;
-    margin-top: 5%;
-
+    display: flex;  
+    /* padding-left: 100px; */
+    /* margin-top: 5%; */
+    /* margin: 25px; */
 }
  .pic1{
     
     display: flex;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     /* gap: 14rem;
     margin: 0000px; */
 }  
 .doc1 img{
-    margin-left:-90%;
-    background-color: rgb(240, 234, 234);
+    background-color: #F4F0FE;
     
 }
-.doc1 h1{
-    margin-left:-70%;
-    font-size: 18px;
-
-}
-.doc1 p{
-    margin-left:-70%;
-
+.doc2 img{
+    background-color:#E3FCFE;
 }
 .doc3 img{
-    margin-left:50% ;
-    background-color: rgb(245, 202, 150);
+    /* margin-left:50% ; */
+    background-color:#FFF5F0;
 }
-.doc3 h1{
-    font-size: 18px;
-    margin-left: 54%;
+.doc1{
+    margin-right: 135px;
+    
 }
-.doc3 p{
-    font-size: 18px; 
-    margin-left: 62%;
+.doc2{
+    margin-right: 135px;
 
-}
-.doc2 img{
-    background-color: rgb(170, 219, 219);
-}
-.doc2 h1{
-    margin-right: 5%;
-    font-size: 18px;
-}
-.footer{
-    display: flex;
 }
 .subscribe{
     /* margin-left: 15%; */
@@ -354,14 +396,12 @@ button{
     width: 200px;
     margin-top: 13px;
     margin-left: 10px;
+    border-radius: 5px;
    
 
 
 }
-.footer{
-    margin-top: 7%;
-}
-.abt{
+/* .abt{
     margin-left: 13%; 
     margin-right: 20%;
 }
@@ -374,7 +414,7 @@ margin-bottom: 30px;
 }
   .ypet{
     margin-left: 8%;  
-  }  
+  }   */
 /* .about{
     margin-right: 10%; */
 /* } */
@@ -382,8 +422,14 @@ margin-bottom: 30px;
     background-color: #F8FEFF;
     margin-top: -31px;
 }
-.holder{
-    margin-top: -19px;
+
+.footer{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.abt{
+    margin-right: 180px;
 }
 /* .mail{
     border: none;
@@ -400,19 +446,19 @@ margin-bottom: 30px;
     display: flex;
     /* margin-right: 60px; */
 }
-.fb{
-    margin-right: 70px;
+#fb{
+    /* margin-right: 70px; */
     color: #385B90;
 }
-.twit{
-margin-right: 100px;
+#twit{
+/* margin-right: 100px; */
 color: #40B1E3;
 }
-.google{
-    margin-right: 70px;
+#goo{
+    /* margin-right: 70px; */
     color: #DF4C3D;
 }
-.linkdn{
+#linkd{
     color: #1983BC;
 }
 .maan{
